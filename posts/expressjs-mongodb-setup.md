@@ -1,6 +1,7 @@
 ---
-title: "Test Markdown"
-date: "29-05-2023"
+title: "MongoDB Setup"
+number: "3."
+date: "2023-05-29"
 ---
 
 To get started, please follow the guide for install requirements.

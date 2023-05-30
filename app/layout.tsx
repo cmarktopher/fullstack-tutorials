@@ -1,6 +1,5 @@
 import './globals.css'
 import Navbar from './components/Navbar'
-import { ApplicationImage } from './components/ApplicationImage'
 
 export const metadata = {
   title: 'Full-Stack Tutorials',
@@ -14,9 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="dark:bg-slate-800">
+      <body className="dark:bg-darkBackground">
         <Navbar/>
-        <ApplicationImage/>
         {children}
         </body>
     </html>
