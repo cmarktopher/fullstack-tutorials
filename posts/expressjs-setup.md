@@ -64,4 +64,6 @@ $ npm uninstall jade
 $ npm audit fix --force
 ```
 
+In the next tutorial, we will change the code inside our project to use pug instead of jade.
+
 ***

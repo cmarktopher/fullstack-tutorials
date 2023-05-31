@@ -18,8 +18,11 @@ export function generateMetadata( { params }: { params: { postId: string}}){
 
   const post = posts.find(post => post.id === postId)
 
-  return {
-    title: post.title,
+  if (post) {
+    
+    return {
+      title: post.title,
+    }
   }
 }
 
