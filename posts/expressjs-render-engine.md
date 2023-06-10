@@ -1,6 +1,6 @@
 ---
 title: "Render Engine"
-number: "2."
+number: 2
 date: "2023-05-31"
 ---
 
@@ -17,8 +17,6 @@ As a summary to what the template engine will do:
 ***
 
 # Basic Template
-
-Assuming you used express generator that came with the jade library, follow the following steps: 
 
 1. Look for the following code inside the app.js file:
 
@@ -44,7 +42,7 @@ Assuming you used express generator that came with the jade library, follow the 
             h1=title 
     ```
 
-    Notice how we have assigned the title tag with a pageTitle variable and the h1 tag with the title variable.
+    Take note of how we have assigned the title tag with a pageTitle variable and the h1 tag with the title variable.
 
 4. Go to the index.js file in the routes folder and change the code to this:
 
@@ -65,7 +63,9 @@ Assuming you used express generator that came with the jade library, follow the 
         text-align: center;
     }
     ```
-    Now, all we need to do is update our template. Add the link tag to the head tag as shown below:
+    Now, all we need to do is update our template. 
+    
+    Add the link tag to the head tag as shown below:
 
     ```
     head
@@ -73,5 +73,6 @@ Assuming you used express generator that came with the jade library, follow the 
         link(rel='stylesheet', href='/stylesheets/style.css')
     ``` 
 
+# Show in browser
 
 ***

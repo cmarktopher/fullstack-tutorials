@@ -1,6 +1,6 @@
 type Post = {
     id: string,
-    number: string,
+    number: number,
     title: string,
     date: string,
 }
